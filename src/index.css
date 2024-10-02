@@ -1,0 +1,24 @@
+/* index.css */
+
+/* 清除浏览器的默认样式 */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif; /* 使用默认字体 */
+  background-color: #f7fafc; /* 背景色，与 Chakra UI 的 gray.50 相对应 */
+  line-height: 1.6; /* 行高 */
+  color: #2d3748; /* 文本颜色，与 Chakra UI 的 gray.800 相对应 */
+  height: 100vh; /* 添加此行以防止滚动 */
+  overflow: hidden; /* 禁用滚动条 */
+}
+
+#root {
+  max-width: 100%; /* 确保最大宽度为 100% */
+  margin: 0 auto; /* 边距自动以居中 */
+  padding: 0; /* 移除默认内边距 */
+  height: 100%; /* 添加此行，确保填满父容器高度 */
+}

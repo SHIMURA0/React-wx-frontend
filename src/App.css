@@ -1,0 +1,51 @@
+/* App.css */
+
+/* Logo样式 */
+.logo {
+  height: 6em; /* logo 高度 */
+  padding: 1.5em; /* logo 上下内边距 */
+  display: block; /* 使 logo 成为块级元素 */
+  margin: 0 auto; /* 自动边距以确保居中 */
+  will-change: filter; /* 允许filter动画 */
+  transition: filter 300ms; /* 过渡效果 */
+}
+
+/* logo hover 效果 */
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa); /* 悬停时添加阴影 */
+}
+
+/* react logo hover 效果 */
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa); /* 针对react的阴影效果 */
+}
+
+/* 旋转动画 */
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 动画设置 */
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear; /* logo旋转效果 */
+  }
+}
+
+/* 卡片样式 */
+.card {
+  padding: 2em; /* 卡片内部填充 */
+}
+
+/* 文本颜色 */
+.read-the-docs {
+  color: #888; /* 文本颜色 */
+}
+
+
+
